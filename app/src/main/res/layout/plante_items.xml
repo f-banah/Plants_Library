@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgPlante"
+        android:layout_width="112dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+    <TextView
+        android:id="@+id/txtnom"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgPlante"
+        android:layout_alignEnd="@+id/imgPlante"
+        android:layout_alignRight="@+id/imgPlante"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:foregroundTint="#050404"
+        android:text="Nom"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtnomScientifique"
+        android:layout_width="149dp"
+        android:layout_height="23dp"
+        android:layout_below="@+id/txtnom"
+        android:layout_alignEnd="@+id/txtnom"
+        android:layout_alignRight="@+id/txtnom"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:text="Nom Scientifique"
+        android:textAlignment="center"
+        android:textColor="#0E0100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtfamille"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnomScientifique"
+        android:layout_alignEnd="@+id/txtnomScientifique"
+        android:layout_alignRight="@+id/txtnomScientifique"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:text="Famille"
+        android:textAlignment="center"
+        android:textColor="#090100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtorigine"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtfamille"
+        android:layout_alignEnd="@+id/txtfamille"
+        android:layout_alignRight="@+id/txtfamille"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Origine"
+        android:textAlignment="center"
+        android:textColor="#0B0100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txttype"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtorigine"
+        android:layout_alignEnd="@+id/txtorigine"
+        android:layout_alignRight="@+id/txtorigine"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Type"
+        android:textAlignment="center"
+        android:textColor="#070100"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtgenre"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttype"
+        android:layout_alignEnd="@+id/txttype"
+        android:layout_alignRight="@+id/txttype"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Genre"
+        android:textAlignment="center"
+        android:textColor="#020000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txttoxicite"
+        android:layout_width="133dp"
+        android:layout_height="19dp"
+        android:layout_below="@+id/txtgenre"
+        android:layout_alignEnd="@+id/txtgenre"
+        android:layout_alignRight="@+id/txtgenre"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Toxicite"
+        android:textAlignment="center"
+        android:textColor="#0C0201"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txtusage"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttoxicite"
+        android:layout_alignEnd="@+id/txttoxicite"
+        android:layout_alignRight="@+id/txttoxicite"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Usage"
+        android:textAlignment="center"
+        android:textColor="#090101"
+        android:textSize="14sp" />
+
+</RelativeLayout>
